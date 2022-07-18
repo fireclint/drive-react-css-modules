@@ -1,0 +1,82 @@
+.find {
+  max-width: 1040px;
+  margin: auto;
+}
+
+.heading h1 {
+  font-size: 4rem;
+  text-align: center;
+  padding: 2rem;
+}
+
+.heading p {
+  text-align: center;
+}
+
+.text_bg {
+  background: rgba(173, 199, 255, 0.502);
+  height: 30px;
+  max-width: 650px;
+  margin: auto;
+  position: absolute;
+
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+}
+
+.text_bg p {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-top: -0.6rem;
+}
+
+.slider_container {
+  padding: 5rem 0;
+}
+
+
+.card {
+  margin: .5rem;
+  border-radius: 10px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.card img {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  height: 220px;
+  object-fit: cover;
+}
+
+.card p {
+  text-align: center;
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+
+
+@media screen and (max-width: 500px) {
+  .card {
+    width: 100%;
+  }
+}
+
+.swiper-container {
+  width: 480px;
+}
+
+@media screen and (min-width: 640px) {
+  .swiper-container {
+    width: 640px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .swiper-container {
+    width: 768px;
+  }
+}
